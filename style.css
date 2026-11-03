@@ -125,3 +125,7 @@ footer img{height:56px;background:#fff;border-radius:10px;padding:4px 8px;margin
 .uaemap .lgh{font-size:11px;font-weight:700;letter-spacing:.2em;fill:#78A4CB}.uaemap .lg{font-size:13px;fill:#1E3A52}.uaemap .cn{font-size:13px;font-weight:700;fill:#1E3A52}
 .uaemap .port{cursor:pointer;outline:none}.uaemap .port:hover .halo,.uaemap .port:focus .halo{opacity:.7;r:15px}.uaemap .port:hover .pl{fill:#2d5577;text-decoration:underline}
 @media(max-width:760px){.mapscroll:after{content:"← swipe to explore →";display:block;text-align:center;font-size:.7rem;color:#7a8ea0;padding-top:6px}}
+
+a.ic{cursor:pointer;color:inherit;text-decoration:none;transition:transform .2s,box-shadow .2s,border-color .2s}
+a.ic:hover,a.ic:focus-visible{transform:translateY(-3px);border-color:#f3dc8a;box-shadow:0 10px 24px rgba(30,58,82,.15)}
+a.ic:hover b{background:#f3dc8a;color:#1E3A52}
