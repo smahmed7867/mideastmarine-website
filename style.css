@@ -111,3 +111,17 @@ footer img{height:56px;background:#fff;border-radius:10px;padding:4px 8px;margin
 @media(max-width:1100px){.ctgrid{grid-template-columns:repeat(4,1fr)}.pgrid2{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:860px){.ctgrid{grid-template-columns:repeat(3,1fr)}.cwrap{grid-template-columns:1fr}.cside{position:static}.pgrid2{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.ctgrid{grid-template-columns:1fr 1fr}.pgrid2{grid-template-columns:1fr 1fr;gap:10px}}
+/* UAE ports map v2 */
+#ports .two{grid-template-columns:1fr}#ports .map{grid-column:1/-1;padding:16px;box-shadow:0 30px 60px -30px rgba(0,0,0,.5)}
+.mapscroll{overflow-x:auto;border-radius:16px;-webkit-overflow-scrolling:touch}
+.uaemap{display:block;width:100%;height:auto;min-width:680px;font-family:Inter,system-ui,sans-serif}
+.uaemap .cty{font-size:15px;font-weight:700;letter-spacing:.3em;fill:#8C9AA6}.uaemap .cty.sm{font-size:12px}
+.uaemap .uae{font-size:17px;font-weight:800;letter-spacing:.35em;fill:#1E3A52;opacity:.55}
+.uaemap .sea{font-family:"Instrument Serif",Georgia,serif;font-style:italic;font-size:26px;fill:#1E3A52;opacity:.6}.uaemap .sea.sm{font-size:15px}
+.uaemap .pl{font-size:14px;font-weight:600;fill:#1E3A52;paint-order:stroke;stroke:#fff;stroke-width:4px;stroke-linejoin:round}
+.uaemap .ld{fill:none;stroke:#1E3A52;stroke-width:1.2;stroke-opacity:.55}
+.uaemap .pt{fill:#1E3A52;stroke:#F9E8A2;stroke-width:2.5}.uaemap .pb{fill:#E0B53A;stroke:#1E3A52;stroke-width:2.5}
+.uaemap .halo{fill:#78A4CB;opacity:.3;transition:.2s}
+.uaemap .lgh{font-size:11px;font-weight:700;letter-spacing:.2em;fill:#78A4CB}.uaemap .lg{font-size:13px;fill:#1E3A52}.uaemap .cn{font-size:13px;font-weight:700;fill:#1E3A52}
+.uaemap .port{cursor:pointer;outline:none}.uaemap .port:hover .halo,.uaemap .port:focus .halo{opacity:.7;r:15px}.uaemap .port:hover .pl{fill:#2d5577;text-decoration:underline}
+@media(max-width:760px){.mapscroll:after{content:"← swipe to explore →";display:block;text-align:center;font-size:.7rem;color:#7a8ea0;padding-top:6px}}
